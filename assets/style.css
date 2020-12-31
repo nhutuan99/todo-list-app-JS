@@ -71,6 +71,7 @@ form select {
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
+  background-color: white;
 }
 
 form .select::after {
