@@ -76,10 +76,8 @@ form select {
 
 form .select::after {
   content: "\25BC";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
+  font-family: 'FontAwesome';
+  display: inline-block;
   position: absolute;
   background: #5dade2;
   top: 0;
