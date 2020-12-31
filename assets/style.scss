@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$myColor:#5dade2;
+$myColor1:#4b39b1;
+
+@mixin flexCustom($align,$justify){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+body{
+    background-image: linear-gradient(120deg,$myColor,$myColor1);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+}
+
+header,
+form{
+    min-height: 20vh;
+    @include flexCustom(center,center);
+}
+
+
+
+
+@import './header';
+@import './form';
+@import './container';
+@import './responsive';

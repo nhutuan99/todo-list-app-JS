@@ -1,0 +1,65 @@
+form {
+
+    input,button{
+        padding: 0.5rem;
+        font-size: 2rem;
+        border: none;
+        outline: none;
+        background: white;
+        border-color: white;
+    }
+
+
+    button{
+        background: white;
+        color: $myColor;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        button:hover {
+            background-color: #5dade2;
+            color: white;
+        }
+
+        select{
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            outline: none;
+            border: none;
+        }
+    
+        .select{
+            margin: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        select {
+            color: $myColor1;
+            width: 10rem;
+            cursor: pointer;
+            padding: 1rem;
+        }
+    
+        .select::after{
+            content: "\25BC";
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            position: absolute;
+            background: $myColor;
+            top: 0;
+            right: 0;
+            padding: 1rem;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+        .select:hover::after{
+            background: white;
+            color: $myColor;
+        }
+}

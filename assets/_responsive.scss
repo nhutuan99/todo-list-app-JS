@@ -1,0 +1,36 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px){
+    header{
+        font-size: 1.3rem;
+    }    
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        input,button{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/* Mobile */
+
+/* Mobile */
+@media (max-width: 739px){
+    header{
+        font-size: 1.2rem;
+    }  
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        input,button{
+            font-size: 1.3rem;
+        }
+
+        select{
+            padding: 0.8rem;
+
+        }
+    }
+}
+
